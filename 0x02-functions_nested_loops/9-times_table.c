@@ -3,13 +3,15 @@
 /**
  * main - check the code
  *
+ * Description: prints the 9 times table
+ *
  * Return: Always 0.
 */
 
 void times_table(void)
 {
 	int row, column, product, tens, ones;
-	
+
 	for (row = 0; row <= 9; row++)
 	{
 		for (column = 0; column <= 9; column++)
